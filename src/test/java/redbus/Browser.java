@@ -8,6 +8,7 @@ public class Browser {
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.irctc.co.in/");
+		System.out.println("Browser Lunched Successfully");
 	}
 
 }
